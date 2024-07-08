@@ -96,9 +96,7 @@ notesRouter.put('/:id', async (req, res) => {
  });
 
 
-notesRouter.get("/dummy",(req,res)=>{
-    res.json({text:"hehehahah", link:"ifhsa@gmail.com"});
-});
+
 
 module.exports = {
 notesRouter
