@@ -3,7 +3,9 @@
 
  const cors = require('cors');
  const app = express();
+ const job = require('./cron');
  const port = process.env.PORT || 5000;
+ 
  
  const { notesRouter } = require("./api/v1/index");
  require("./db/index");
